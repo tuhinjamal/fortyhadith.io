@@ -1,9 +1,9 @@
 <?php
  
- define('HOST', 'localhost');
- define('USER', 'root');
- define('PASS', '');
- define('DB', 'db_login');
+ define('HOST', 'cdm1s48crk8itlnr.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
+ define('USER', 'tyb8p1r3f0u6ijib');
+ define('PASS', 'huo3dflpy7je0iut');
+ define('DB', 'l55yny9307t23wwe');
 
 
  $connection = mysqli_connect(HOST, USER, PASS, DB);
