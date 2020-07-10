@@ -8,7 +8,7 @@ session_start();
 				echo "All the field are required";
 		}else{
 
-			$sql = "SELECT * FROM `tbl_user` WHERE username = '$username' AND password = '$password'";
+			$sql = "SELECT * FROM tbl_user WHERE username = '$username' AND password = '$password'";
 			$result=mysqli_query($connection,$sql);
 			if(mysqli_num_rows ( $result ) ===1){
 				echo "login success";
